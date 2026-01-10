@@ -137,7 +137,7 @@ export const AboutSection = () => {
                             variants={fadeInUp}
                             className="text-slate-400 mb-8 leading-relaxed"
                         >
-                            Dengan pengalaman bertahun-tahun dalam transformasi digital, kami memahami
+                            Dengan pengalaman dalam transformasi digital, kami memahami
                             tantangan unik yang dihadapi oleh manufaktur dan usaha kecil hingga menengah.
                             Tim kami menggabungkan keahlian teknis dengan pengetahuan industri untuk memberikan
                             solusi yang benar-benar berfungsi.

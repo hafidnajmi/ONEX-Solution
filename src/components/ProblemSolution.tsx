@@ -21,7 +21,7 @@ export const ProblemSolution = () => {
                             <div className="w-12 h-12 rounded-lg bg-red-900/20 flex items-center justify-center mb-6 text-red-500">
                                 <XCircle className="w-6 h-6" />
                             </div>
-                            <h3 className="text-xl font-bold text-white mb-4 font-['Syne']">Traditional Friction</h3>
+                            <h3 className="text-xl font-bold text-white mb-4 font-['Syne']">Traditional Standard</h3>
                             <ul className="space-y-4">
                                 {[
                                     "Kesalahan entri data manual",
