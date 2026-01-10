@@ -30,14 +30,14 @@ export const PortfolioSection = () => {
             color: "from-blue-600 to-cyan-500",
             thumbnail: "/energy.jpeg",
             images: ["/energy.jpeg", "/predictive.jpeg", "/topology_predictive.png"],
-            description: "Sistem pemantauan IoT komprehensif untuk fasilitas manufaktur suku cadang otomotif. Pelacakan kinerja mesin secara real-time dan peringatan pemeliharaan prediktif.",
+            description: "Proyek ini dirancang untuk mengatasi tantangan Breakdown Maintenance pada lini produksi kritis (ED Painting) yang beroperasi 24 jam nonstop. Dengan mengintegrasikan sensor energi IoT, sistem ini beralih dari pemeliharaan reaktif menjadi proaktif melalui pemantauan real-time dan analisis data kesehatan mesin.",
             client: "Demo Project",
             year: "2025",
-            technologies: ["Node-Red", "Grafana", "MySQL"],
+            technologies: ["Node-Red", "Grafana", "MySQL", "Telegram Bot", "Power Meter Sensor"],
             results: [
-                "Peningkatan 30% dalam efisiensi produksi",
-                "Pengurangan 45% downtime tak terduga",
-                "Pemantauan real-time dari 200+ sensor"
+                "Availability Tinggi: Mencapai target ketersediaan mesin > 99%",
+                "Reduksi Downtime: Diproyeksikan mengurangi downtime tidak terduga hingga > 25%",
+                "Akurasi Prediksi: Algoritma mampu mendeteksi potensi kegagalan dengan akurasi > 85%"
             ]
         },
         {
@@ -51,7 +51,7 @@ export const PortfolioSection = () => {
             description: "Platform chatbot berbasis Retrieval-Augmented Generation (RAG) yang memungkinkan perusahaan dari konsultan hingga manufaktur,untuk mengubah dokumen internal (PDF, SOP, case study) menjadi asisten digital 24/7. Sistem ini menjawab pertanyaan pengguna dengan konteks relevan, menangkap lead secara otomatis, dan menyajikan respons terstruktur melalui antarmuka web ringan.",
             client: "Internal Use Case - Demo Project",
             year: "2025",
-            technologies: ["HTML/CSS/JS", "n8n", "Supabase", "Google Sheets API", "RAG + OpenAI"],
+            technologies: ["HTML/CSS/JS", "n8n", "Supabase", "Google Sheets API", "RAG + OpenAI", "Netlify"],
             results: [
                 "Mengubah pengetahuan internal menjadi layanan digital 24/7",
                 "Menangkap lead secara otomatis",
@@ -66,14 +66,32 @@ export const PortfolioSection = () => {
             color: "from-emerald-600 to-teal-500",
             thumbnail: "/weight_system.png",
             images: ["/weight_system.png", "/db_weight.png"],
-            description: "Sistem manajemen penimbangan (Weighing System) berbasis desktop yang dirancang khusus untuk lini produksi di pabrik. Sistem ini tidak hanya mencatat data berat produk secara real-time dari timbangan digital, tetapi juga melakukan analisis statistik proses (Cp/Cpk) untuk memastikan kualitas produksi selalu dalam batas spesifikasi.",
+            description: "Applikasi Berbasis Web industri untuk pemantauan berat real-time dan analisis statistik (Cp/Cpk). Terintegrasi dengan timbangan presisi via RS-232 dan SQL Server, sistem ini mengeliminasi kesalahan manual, memvisualisasikan histogram kualitas, dan menjamin ketertelusuran data penuh.",
             client: "Demo Project",
             year: "2025",
-            technologies: ["JavaScript", "Python", "HTML", "SQL Server", "CSS"],
+            technologies: ["Python", "PyQt6", "SQL Server", "Matplotlib", "PySerial", "HTML", "CSS", "JS"],
             results: [
-                "Akurasi inventaris 99.9%",
-                "Pemrosesan pesanan 60% lebih cepat",
-                "Manajemen stok prediktif"
+                "Eliminasi human-error pencatatan data",
+                "Analisis kapabilitas proses (Cp/Cpk) real-time",
+                "Operasi offline dengan sinkronisasi otomatis"
+            ]
+        },
+        {
+            id: 4,
+            title: "Invoice Management & Reporting System",
+            tag: "Data Monitoring",
+            stat: "Efisiensi +30%",
+            color: "from-blue-600 to-cyan-500",
+            thumbnail: "/idesydashboard.png",
+            images: ["/idesydashboard.png", "/idesylogin.png", "/idesylaporan.png", "/idesyriwayat.png", "/idesyinvoice.png"],
+            description: "Sistem ini dirancang untuk mentransformasi proses penagihan (invoicing) manual menjadi workflow digital yang terotomatisasi penuh untuk layanan Ticketing, Visa, dan Penyewaan Villa. Mengintegrasikan dashboard interaktif dengan manajemen data real-time, sistem ini memusatkan seluruh kontrol finansial operasional dari pencatatan hingga pelaporan. Solusi ini menjawab tantangan akurasi data dan efisiensi waktu administrasi.",
+            client: "Indoeasy Holiday",
+            year: "2025-2026",
+            technologies: ["Astro", "Tailwind CSS", "TypeScript", "n8n Workflow", "MySQL", "Nginx", "VPS"],
+            results: [
+                "Efisiensi Operasional: Mengurangi waktu pembuatan invoice hingga 80% dengan fitur auto-generate PDF dan kalkulasi otomatis.",
+                "Akurasi Data Finansial: Mengeliminasi human error dalam perhitungan Fare, Service Fee, dan Profit melalui validasi sistem terpusat.",
+                "Real-Time Monitoring: Dashboard KPI memberikan visibilitas instan terhadap status pembayaran (Paid/Unpaid) dan performa penjualan bulanan."
             ]
         }
     ];
